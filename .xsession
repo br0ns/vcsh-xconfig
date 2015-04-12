@@ -17,16 +17,18 @@ feh --bg-scale ~/.wallpaper.jpg
 autocutsel -fork
 autocutsel -fork PRIMARY
 
-# Start a bunch of programs
+# Keyrings
 eval $(ssh-agent)
-xfce4-volumed &
-/usr/lib/x86_64-linux-gnu/xfce4/notifyd/xfce4-notifyd &
-gnome-do &
-xscreensaver -nosplash &
+eval $(gpg-agent --daemon)
+
+# Volume daemon
+(xfce4-volumed &)
+
+# Compositing manager (I like inactive windows to be just slightly transparent)
 xcompmgr &
 
 # Keyboard stuff
-setxkbmap us -variant altgr-intl -option compose:prsc,compose:menu,nodeadkeys,terminate:ctrl_alt_bksp
+setxkbmap us -variant altgr-intl -option compose:prsc,compose:menu,nodeadkeys
 xmodmap ~/.xmodmap
 
 wait $WMPID
