@@ -1,0 +1,8 @@
+*
+!/.gitignore.d
+!/.gitignore.d/xconfig
+!/.XCompose
+!/.xmodmap
+!/.Xresources
+!/.xscreensaver
+!/.xsession

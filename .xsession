@@ -9,6 +9,10 @@ xset b off
 # Load custom RandR settings
 [ -f ~/.xrandr ] && . ~/.xrandr
 
+# Keyrings
+eval $(ssh-agent)
+eval $(gpg-agent --daemon)
+
 # Start the WM
 .cabal/bin/xmonad &
 WMPID=$!
@@ -20,15 +24,11 @@ feh --bg-scale ~/.wallpaper.jpg
 autocutsel -fork
 autocutsel -fork PRIMARY
 
-# Keyrings
-eval $(ssh-agent)
-eval $(gpg-agent --daemon)
-
 # Volume daemon
 (xfce4-volumed &)
 
 # Compositing manager (I like inactive windows to be just slightly transparent)
-xcompmgr &
+(xcompmgr &)
 
 # Keyboard stuff
 setxkbmap us -variant altgr-intl -option compose:prsc,compose:menu,nodeadkeys
