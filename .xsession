@@ -6,6 +6,9 @@
 # Turn bell off
 xset b off
 
+# Load custom RandR settings
+[ -f ~/.xrandr ] && . ~/.xrandr
+
 # Start the WM
 .cabal/bin/xmonad &
 WMPID=$!
