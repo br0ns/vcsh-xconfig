@@ -9,10 +9,6 @@ xset b off
 # Load custom RandR settings
 [ -f ~/.xrandr ] && . ~/.xrandr
 
-# Keyrings
-eval $(ssh-agent)
-eval $(gpg-agent --daemon)
-
 # Start the WM
 .cabal/bin/xmonad &
 WMPID=$!
@@ -23,9 +19,6 @@ feh --bg-scale ~/.wallpaper.jpg
 # Make the clipboard a little bit more sane
 autocutsel -fork
 autocutsel -fork PRIMARY
-
-# Volume daemon
-(xfce4-volumed &)
 
 # Compositing manager (I like inactive windows to be just slightly transparent)
 (xcompmgr &)
