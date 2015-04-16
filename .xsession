@@ -18,7 +18,7 @@ feh --bg-scale ~/.wallpaper.jpg
 
 # Make the clipboard a little bit more sane
 autocutsel -fork
-autocutsel -fork PRIMARY
+autocutsel -fork -selection PRIMARY
 
 # Compositing manager (I like inactive windows to be just slightly transparent)
 (xcompmgr &)
