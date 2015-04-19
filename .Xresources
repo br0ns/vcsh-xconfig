@@ -7,9 +7,6 @@ Xft.rgba:                   rgb
 Xft.hinting:                true
 Xft.hintstyle:              hintslight
 
-*background:                #000000
-*foreground:                #ffffff
-
 emacs.font:                 Liberation Mono-8
 emacs.background:           Black
 emacs.menuBar:              off
