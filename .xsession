@@ -3,9 +3,8 @@
 # Set up environment
 [ -f ~/.profile ] && . ~/.profile
 
-# Load custom settings (I use this on both my laptop and desktop and
-# they need slightly different settings)
-[ -f ~/.custom ] && . ~/.custom
+# Load custom XRandR settings
+[ -f ~/.xrandr ] && . ~/.xrandr
 
 # Turn bell off
 xset b off
