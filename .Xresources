@@ -15,12 +15,11 @@ emacs.verticalScrollBars:   off
 
 XTerm*bellIsUrgent:         true
 XTerm*metaSendsEscape:      true
-XTerm*scrollttyoutput:      false
-XTerm*ScrollTTYKeypress:    true
+XTerm*saveLines:            50000
 
 XTerm*faceName:             Liberation Mono
 ! XTerm*faceName:             DejaVu Sans Mono
-!XTerm*faceName:             Courier-9
+! XTerm*faceName:             Courier-9
 
 XTerm*faceSize:             8
 ! Unreadable:
@@ -73,7 +72,3 @@ XTerm*color14:            #63e9e9
 ! white dark/light
 XTerm*color7:             #d3d7cf
 XTerm*color15:            #eeeeec
-
-! xscreensaver
-xscreensaver.fade:        false
-xscreensaver.unfade:      false
