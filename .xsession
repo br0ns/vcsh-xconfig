@@ -2,6 +2,7 @@
 
 # Set up environment
 [ -f ~/.profile ] && . ~/.profile
+export XAUTHORITY=~/.Xauthority
 
 # Load custom XRandR settings
 [ -f ~/.xrandr ] && . ~/.xrandr
