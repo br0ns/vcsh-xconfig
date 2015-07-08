@@ -24,6 +24,10 @@ autocutsel -fork -selection PRIMARY
 # Compositing manager (I like inactive windows to be just slightly transparent)
 (xcompmgr &)
 
+# Start SSH agent and add key
+eval $(ssh-agent)
+(sleep 0.5 ; xterm -e ssh-add) &
+
 # Keyboard stuff
 setxkbmap us -variant altgr-intl -option compose:prsc,compose:menu,nodeadkeys
 xmodmap ~/.xmodmap
