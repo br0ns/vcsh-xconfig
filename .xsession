@@ -10,10 +10,6 @@ export XAUTHORITY=~/.Xauthority
 # Turn bell off
 xset b off
 
-# Start the WM
-.cabal/bin/xmonad &
-WMPID=$!
-
 # Desktop background
 feh --bg-scale ~/.wallpaper.jpg
 
@@ -32,4 +28,5 @@ eval $(ssh-agent)
 setxkbmap us -variant altgr-intl -option compose:prsc,compose:menu,nodeadkeys
 xmodmap ~/.xmodmap
 
-wait $WMPID
+# Start the WM
+exec -a xmonad .cabal/bin/xmonad &
