@@ -29,4 +29,4 @@ setxkbmap us -variant altgr-intl -option compose:prsc,compose:menu,nodeadkeys
 xmodmap ~/.xmodmap
 
 # Start the WM
-exec -a xmonad .cabal/bin/xmonad &
+exec -a xmonad ~/.cabal/bin/xmonad
