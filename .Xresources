@@ -7,8 +7,8 @@ Xft.rgba:                   rgb
 Xft.hinting:                true
 Xft.hintstyle:              hintslight
 
-emacs.font:                 Liberation Mono-8
-emacs.background:           Black
+! emacs.font:                 Liberation Mono-8
+emacs.font:                 DejaVu Sans Mono-7
 emacs.menuBar:              off
 emacs.toolBar:              off
 emacs.verticalScrollBars:   off
@@ -17,15 +17,16 @@ XTerm*bellIsUrgent:         true
 XTerm*metaSendsEscape:      true
 XTerm*saveLines:            50000
 
-XTerm*faceName:             Liberation Mono
-! XTerm*faceName:             DejaVu Sans Mono
+! XTerm*faceName:             Liberation Mono
+XTerm*faceName:             DejaVu Sans Mono
+! XTerm*faceName:             Terminus
 ! XTerm*faceName:             Courier-9
 
-XTerm*faceSize:             8
+XTerm*faceSize:             7
 ! Unreadable:
-XTerm*faceSize1:            8
+XTerm*faceSize1:            7
 ! Tiny:
-XTerm*faceSize2:            10
+XTerm*faceSize2:            9
 ! Small:
 XTerm*faceSize3:            12
 ! Medium:
@@ -39,36 +40,32 @@ XTerm.VT100.translations: #override \
 Super <Key> minus: smaller-vt-font() \n\
 Super <Key> plus: larger-vt-font() \n\
 
-! Tango color palette
-XTerm*background:         #000000
-XTerm*foreground:         #eeeeec
-XTerm*cursorColor:        #baddb6
-! foreground color for underline
-XTerm*colorUL:            #8ae234
-! line color for underline
-XTerm*underlineColor:     #92659a
-! black dark/light
-! XTerm*color0:             #2e3436
-XTerm*color0:             #000000
-XTerm*color8:             #6e706b
-! red dark/light
-XTerm*color1:             #cc0000
-XTerm*color9:             #ef2929
-! green dark/light
-XTerm*color2:             #4e9a06
-XTerm*color10:            #8ae234
-! yellow dark/light
-XTerm*color3:             #edd400
-XTerm*color11:            #fce94f
-! blue dark/light
-XTerm*color4:             #3465a4
-XTerm*color12:            #729fcf
-! magenta dark/light
-XTerm*color5:             #92659a
-XTerm*color13:            #c19fbe
-! cyan dark/light
-XTerm*color6:             #07c7ca
-XTerm*color14:            #63e9e9
-! white dark/light
-XTerm*color7:             #d3d7cf
-XTerm*color15:            #eeeeec
+! Tango color scheme
+!! Black
+XTerm*color0:  #1e1e1e
+XTerm*color8:  #555753
+!! Red
+XTerm*color1:  #cc0000
+XTerm*color9:  #ef2929
+!! Green
+XTerm*color2:  #4e9a06
+XTerm*color10: #8ae234
+!! Yellow
+XTerm*color3:  #c4a000
+XTerm*color11: #fce94f
+!! Blue
+XTerm*color4:  #3465a4
+XTerm*color12: #729fcf
+!! Magenta
+XTerm*color5:  #75507b
+XTerm*color13: #ad7fa8
+!! Cyan
+XTerm*color6:  #0b939b
+XTerm*color14: #00f5e9
+!! White
+XTerm*color7:  #d3d7cf
+XTerm*color15: #eeeeec
+
+*borderColor: #2e3434
+*background: #2e3434
+*foreground: #eeeeec
