@@ -66,6 +66,5 @@ XTerm*color14: #00f5e9
 XTerm*color7:  #d3d7cf
 XTerm*color15: #eeeeec
 
-*borderColor: #2e3434
-*background: #2e3434
-*foreground: #eeeeec
+XTerm*background: #2e3434
+XTerm*foreground: #eeeeec
