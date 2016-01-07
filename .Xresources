@@ -22,7 +22,7 @@ XTerm*faceName:             DejaVu Sans Mono
 ! XTerm*faceName:             Terminus
 ! XTerm*faceName:             Courier-9
 
-XTerm*faceSize:             7
+XTerm*faceSize:             9
 ! Unreadable:
 XTerm*faceSize1:            7
 ! Tiny:
