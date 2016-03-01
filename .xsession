@@ -20,8 +20,8 @@ autocutsel -fork -selection PRIMARY
 # Compositing manager (I like inactive windows to be just slightly transparent)
 (xcompmgr &)
 
-# Start SSH agent and add key
-eval $(ssh-agent)
+# SSH agent should have been started by X; see /etc/X11/Xsession.options
+# Wait until XMonad has started, then spawn a terminal to add the key
 (sleep 0.5 ; xterm -e ssh-add) &
 
 # Keyboard stuff
