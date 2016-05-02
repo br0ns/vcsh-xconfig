@@ -2,3 +2,6 @@ include "/usr/share/X11/locale/en_US.UTF-8/Compose"
 
 # TODO: Go through this list:
 #  https://github.com/rrthomas/pointless-xcompose/blob/master/xcompose
+
+<Multi_key> <V> <V> : "✓" U2713 # CHECK MARK
+<Multi_key> <X> <X> : "✗" U2717 # BALLOT X — <x> <x> taken by Xorg for multiply
