@@ -11,7 +11,7 @@ export XAUTHORITY=~/.Xauthority
 xset b off
 
 # Desktop background
-feh --bg-scale ~/.wallpaper.jpg
+feh --bg-fill ~/.wallpaper.jpg
 
 # Make the clipboard a little bit more sane
 autocutsel -fork
