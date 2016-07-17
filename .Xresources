@@ -7,7 +7,7 @@ Xft.rgba:                   rgb
 Xft.hinting:                true
 Xft.hintstyle:              hintslight
 
-emacs.font:                 Liberation Mono-8
+emacs.font:                 Liberation Mono-10
 ! emacs.font:                 DejaVu Sans Mono-7
 emacs.menuBar:              off
 emacs.toolBar:              off
@@ -22,11 +22,11 @@ XTerm*faceName:             DejaVu Sans Mono
 ! XTerm*faceName:             Terminus
 ! XTerm*faceName:             Courier-9
 
-XTerm*faceSize:             8
+XTerm*faceSize:             10
 ! Unreadable:
 XTerm*faceSize1:            8
 ! Tiny:
-XTerm*faceSize2:            9
+XTerm*faceSize2:            10
 ! Small:
 XTerm*faceSize3:            12
 ! Medium:
