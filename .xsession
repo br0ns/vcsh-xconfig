@@ -24,9 +24,5 @@ autocutsel -fork -selection PRIMARY
 # Wait until XMonad has started, then spawn a terminal to add the key
 (sleep 0.5 ; xterm -e ssh-add) &
 
-# Keyboard stuff
-setxkbmap us -variant altgr-intl -option compose:prsc,compose:menu,nodeadkeys
-xmodmap ~/.xmodmap
-
 # Start the WM
 exec -a xmonad ~/.cabal/bin/xmonad

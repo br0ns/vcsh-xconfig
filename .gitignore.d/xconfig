@@ -1,6 +1,7 @@
 *
 !/.gitignore.d
 !/.gitignore.d/xconfig
+!/.keyboard
 !/.XCompose
 !/.xmodmap
 !/.Xresources

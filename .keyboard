@@ -1,0 +1,3 @@
+XKBLAYOUT=us
+XKBVARIANT=altgr-intl
+XKBOPTIONS=compose:prsc,compose:menu,caps:hyper,nodeadkeys
