@@ -1,0 +1,9 @@
+#!/usr/bin/bash
+setxkbmap                \
+    -layout us           \
+    -variant altgr-intl  \
+    -option              \
+    -option compose:prsc \
+    -option compose:menu \
+    -option nodeadkeys
+xmodmap ~/.xmodmap

@@ -24,5 +24,8 @@ autocutsel -fork -selection PRIMARY
 # Wait until XMonad has started, then spawn a terminal to add the key
 (sleep 0.5 ; xterm -e ssh-add) &
 
+# Configure keyboard
+./.xsession-keyboard
+
 # Start the WM
 exec -a xmonad ~/.cabal/bin/xmonad
