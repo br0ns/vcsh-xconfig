@@ -22,6 +22,7 @@ autocutsel -fork -selection PRIMARY
 
 # SSH agent should have been started by X; see /etc/X11/Xsession.options
 # Wait until XMonad has started, then spawn a terminal to add the key
+# XXX: Switch to `gpg-agent --enable-ssh-support`?
 (sleep 0.5 ; xterm -e ssh-add) &
 
 # Configure keyboard
