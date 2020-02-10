@@ -75,7 +75,7 @@ XTerm*scrollKey:            true
 XTerm*scrollTtyOutput:      false
 XTerm*highlightSelection:   true
 XTerm*trimSelection:        false
-XTerm*printerCommand:       xterm-printer-command
+XTerm*printerCommand:       /home/user/.xterm-printer-command
 XTerm*faceName:             FONT
 XTerm*faceSize:             SIZE
 XTerm*faceSize1:            SIZE1
